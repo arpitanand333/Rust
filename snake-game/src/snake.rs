@@ -121,7 +121,7 @@ impl Snake {
             Direction::Left => (head_x - 1, head_y),
             Direction::Right => (head_x + 1, head_y),
         }
-    }
+    }  
 
     pub fn restore_tail(&mut self) {
         let blk = self.tail.clone().unwrap();
